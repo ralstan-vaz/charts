@@ -105,3 +105,15 @@ questions:
   required: true
   label: Enable Metrics
   group: "MariaDB Settings"
+- variable: resources.requests.memory
+  default: "100Mi"
+  description: "WordPress Memory"
+  type: string
+  label: WordPress Memory Size
+  group: "WordPress Resources"
+- variable: resources.requests.cpu
+  default: "100m"
+  description: "WordPress CPU"
+  type: string
+  label: WordPress CPU
+  group: "WordPress Resources"

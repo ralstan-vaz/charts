@@ -192,6 +192,18 @@ questions:
     type: hostname
     required: true
     label: Hostname
+- variable: mariadb.resources.requests.memory
+  default: "100Mi"
+  description: "MariaDB Memory"
+  type: string
+  label: MariaDB Memory Size
+  group: "MariaDB Resources"
+- variable: mariadb.resources.requests.cpu
+  default: "100m"
+  description: "MariaDB CPU"
+  type: string
+  label: MariaDB CPU
+  group: "MariaDB Resources"
 - variable: resources.requests.memory
   default: "100Mi"
   description: "WordPress Memory"

@@ -98,8 +98,8 @@ metrics:
 ##
 resources:
   requests:
-    memory: 256Mi
-    cpu: 250m
+    memory: 100Mi
+    cpu: 100m
 
 ## Discretionary Access Controls
 ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/

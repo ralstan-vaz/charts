@@ -115,6 +115,11 @@ mariadb:
   ## Enable persistence using Persistent Volume Claims
   ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
   ##
+  resources:
+    requests:
+      memory: 100Mi
+      cpu: 100m
+  
   persistence:
     enabled: true
     ## mariadb data Persistent Volume Storage Class
