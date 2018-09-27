@@ -3,7 +3,7 @@ categories:
 - CMS
 questions:
 - variable: defaultImage
-  default: "true"
+  default: "false"
   description: "Use default Docker image"
   label: Use Default Image
   type: boolean
@@ -51,7 +51,7 @@ questions:
   label: WordPress Admin Email
   group: "WordPress Settings"
 - variable: mariadb.enabled
-  default: "true"
+  default: "false"
   description: "Deploy a database server as part of this deployment, or set to false and configure an external database connection."
   type: boolean
   required: true
