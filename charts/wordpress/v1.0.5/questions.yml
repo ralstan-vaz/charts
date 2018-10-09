@@ -30,6 +30,11 @@ questions:
     description: "MariaDB image tag"
     type: string
     label: MariaDB Image Tag
+  - variable: image.pullSecrets
+    default: "registrykey"
+    description: "Pull secrets"
+    type: string
+    label: Pull Secrets
 - variable: wordpressUsername
   default: "user"
   description: "User of the application"
